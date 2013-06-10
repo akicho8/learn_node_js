@@ -5,8 +5,12 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    <%= 1 + 2 %>
+    <input type="text" name="message" id="message" />
+    <button id="btn">送信</button>
+    <ul id="list"></ul>
+
+    <script src="/javascripts/jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/javascripts/my_chat.js"></script>
   </body>
 </html>
