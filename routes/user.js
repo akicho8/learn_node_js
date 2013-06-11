@@ -4,5 +4,5 @@
  */
 
 exports.list = function(req, res){
-  res.send("respond with a resource");
+    res.send("/users のときに呼ばれる部分。node app しなおさないと反映されない");
 };
